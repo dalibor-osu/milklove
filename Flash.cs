@@ -22,10 +22,10 @@ namespace StorybrewScripts
 		    var layer = GetLayer("flash");
             var sprite = layer.CreateSprite("sb/white.png", OsbOrigin.Centre);
             
-            sprite.Scale(0, ScreenScale);
+            sprite.ScaleVec(0, Width * ScreenScale, Height * ScreenScale);
             sprite.Fade(0, 0);
             
-            sprite.Fade(50006, flashTimes[0], 0, 1);
+            sprite.Fade(48756, flashTimes[0], 0, 1);
             
             foreach (var flashTime in flashTimes)
             {

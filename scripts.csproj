@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Flash.cs" />
     <Compile Include="Images.cs" />
+    <Compile Include="Lyrics.cs" />
     <Compile Include="V.cs" />
     <Compile Include="scriptslibrary/StoryboardObjectGeneratorExtended.cs" />
   </ItemGroup>

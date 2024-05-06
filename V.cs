@@ -19,8 +19,8 @@ namespace StorybrewScripts
             var layer = GetLayer("vig");
             var sprite = layer.CreateSprite("sb/v.png", OsbOrigin.Centre);
             
-            sprite.Scale(0, ScreenScale);
-            sprite.Fade(0, 0.8);
+            sprite.Scale(-2000, ScreenScale);
+            sprite.Fade(-2000, 0.6);
             sprite.Fade(78684, 1);
         }
     }
