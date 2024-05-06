@@ -1,0 +1,16 @@
+﻿FormatVersion: 7
+Name: "Images 1"
+Script: "Images"
+Multithreaded: No
+Config:
+  RandomSeed:
+    Type: "System.Int32"
+    Value: "0"
+    DisplayName: "Random Seed"
+    BeginsGroup: "Common"
+Layers:
+  07be32a0d30442d794e7701e28c123a9:
+    Name: "images"
+    OsbLayer: Background
+    DiffSpecific: No
+    Visible: Yes
